@@ -112,11 +112,11 @@ const Footer = () => {
 
       {/* ==================== MAIN FOOTER ==================== */}
       <footer className="bg-[#0e1a2b] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 ">
           {/* Grid layout for footer content */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
             {/* ===== BRAND COLUMN ===== */}
-            <div className="md:col-span-4 lg:col-span-3">
+            <div className="md:col-span-4 lg:col-span-3 flex flex-col justify-between h-full">
               {/* Logo and Brand Name */}
               <div className="lg:col-span-5">
                 <div className="flex items-center space-x-4 mb-8">
@@ -147,7 +147,7 @@ const Footer = () => {
               </div>
 
               {/* Description */}
-              <p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-lg">
+              <p className="text-slate-300 text-lg leading-relaxed mt-8 max-w-lg">
                 <span className="font-semibold text-cyan-400">
                   Collaborative Learning Using Statistical Trends & Exploratory
                   Research.
@@ -260,10 +260,10 @@ const Footer = () => {
 
               {/* Social Links & Community Stats */}
               <div className="py-8 border-t border-slate-800/50 mt-8">
-                <div className="flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0">
+                <div className="flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0 lg:gap-16">
                   {/* Social Links */}
                   <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8">
-                    <span className="text-slate-400 font-medium">
+                    <span className="text-slate-400 font-medium ml-16">
                       Connect with us:
                     </span>
                     <div className="flex items-center space-x-3">
