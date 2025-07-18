@@ -17,9 +17,15 @@ const CallToAction = ({ isVisible = true }) => (
         <div className="relative z-10">
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-400/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 rounded-full px-6 py-2 mb-6">
             <FaUsers className="w-5 h-5 text-cyan-400" />
+            <a
+  href="https://discord.com/invite/6QN83D89vx"
+  target="_blank"
+  rel="noopener noreferrer"
+>
             <span className="text-cyan-300 font-medium">
               Join Our Community
             </span>
+            </a>
           </div>
           <h3 className="text-4xl font-bold text-white mb-6">
             Ready to Shape the Future of
@@ -37,19 +43,11 @@ const CallToAction = ({ isVisible = true }) => (
             {/* <button className="bg-gradient-to-r from-cyan-500/80 to-blue-500/80 text-white px-10 py-4 rounded-xl font-semibold border border-cyan-300/60 hover:from-cyan-600 hover:to-blue-600 transition-all duration-300 hover:scale-105 shadow-xl shadow-cyan-500/20 hover:shadow-cyan-500/30">
               Join CLUSTER Today
             </button> */}
-            <a
-              href="https://discord.com/invite/6QN83D89vx"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="bg-gradient-to-r from-cyan-500/80 to-blue-500/80 text-white px-10 py-4 rounded-xl font-semibold border border-cyan-300/60 hover:from-cyan-600 hover:to-blue-600 transition-all duration-300 hover:scale-105 shadow-xl shadow-cyan-500/20 hover:shadow-cyan-500/30">
-                Join CLUSTER Today
-              </button>
-            </a>
+            
 
-            <Link to={"/research"}>
+            <Link to={"/about"}>
               <button className="bg-gradient-to-r from-cyan-500/80 to-blue-500/80 text-white px-10 py-4 rounded-xl font-semibold border border-cyan-300/60 hover:from-cyan-600 hover:to-blue-600 transition-all duration-300 hover:scale-105 shadow-xl shadow-cyan-500/20 hover:shadow-cyan-500/30">
-                Explore Our Research
+                About Us 
               </button>
             </Link>
           </div>
